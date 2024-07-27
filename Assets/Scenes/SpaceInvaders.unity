@@ -864,6 +864,58 @@ Transform:
   m_Children: []
   m_Father: {fileID: 0}
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!1 &1365395676
+GameObject:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  serializedVersion: 6
+  m_Component:
+  - component: {fileID: 1365395678}
+  - component: {fileID: 1365395677}
+  m_Layer: 0
+  m_Name: Invaders
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!114 &1365395677
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1365395676}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: c1017c6a5fddf9944b991f3619d5c404, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  prefabs:
+  - {fileID: 5251729063159442601, guid: e4afbe0a7ac589e45b791c56d3adc37d, type: 3}
+  - {fileID: 5251729063159442601, guid: e4afbe0a7ac589e45b791c56d3adc37d, type: 3}
+  - {fileID: 5213563988613319309, guid: c66839903e538a646940e7cec38e824e, type: 3}
+  - {fileID: 5213563988613319309, guid: c66839903e538a646940e7cec38e824e, type: 3}
+  - {fileID: 5327193817594021542, guid: 7576887968a5ba440ba131cdd03e5e5c, type: 3}
+  rows: 5
+  columns: 11
+--- !u!4 &1365395678
+Transform:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1365395676}
+  serializedVersion: 2
+  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
+  m_LocalPosition: {x: 0, y: 7, z: 0}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_ConstrainProportionsScale: 0
+  m_Children: []
+  m_Father: {fileID: 0}
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
 --- !u!1 &1623540601
 GameObject:
   m_ObjectHideFlags: 0
@@ -1161,3 +1213,4 @@ SceneRoots:
   - {fileID: 273660679}
   - {fileID: 1824656287}
   - {fileID: 1623540603}
+  - {fileID: 1365395678}
